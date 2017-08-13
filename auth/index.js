@@ -35,7 +35,6 @@ module.exports = function auth(server) {
       isSecure: Config.get('cookie.secure'),
     });
     // Setup the social Google login strategy
-    /*
     server.auth.strategy('google', 'bell', {
       provider: 'google',
       password: Config.get('google.password'),
@@ -43,7 +42,6 @@ module.exports = function auth(server) {
       clientSecret: Config.get('google.secret'),
       isSecure: Config.get('cookie.secure'),
     });
-    */
     function authHandler(request, reply) {
       if (!request.auth.isAuthenticated) {
         return reply(Boom.unauthorized(`Authentication failed due to: ${request.auth.error.message}`));
@@ -76,7 +74,6 @@ module.exports = function auth(server) {
         handler: authHandler,
       },
     });
-    /*
     server.route({
       method: 'GET',
       path: '/auth/google',
@@ -85,7 +82,6 @@ module.exports = function auth(server) {
         handler: authHandler,
       },
     });
-    */
     server.route({
       method: 'GET',
       path: '/',
