@@ -10,8 +10,10 @@
   "main": "./server.js",
   "dependencies": {
     "bell": "^8.7.0",
+    "boom": "^5.2.0",
     "config": "^1.26.2",
-    "hapi": "^16.5.2"
+    "hapi": "^16.5.2",
+    "hapi-auth-cookie": "^7.0.0"
   },
   "devDependencies": {
     "eslint": "^4.4.1",

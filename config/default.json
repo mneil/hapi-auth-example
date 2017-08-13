@@ -1,5 +1,9 @@
 {
   "port": 8000,
+  "cookie": {
+    "secret": "",
+    "secure": true
+  },
   "twitter": {
     "id": "",
     "secret": "",
