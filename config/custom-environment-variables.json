@@ -1,0 +1,8 @@
+{
+  "port": "PORT",
+  "twitter": {
+    "id": "TWITTER_ID",
+    "secret": "TWITTER_SECRET",
+    "password": "TWITTER_PASSWORD"
+  }
+}
