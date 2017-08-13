@@ -8,5 +8,15 @@
     "id": "",
     "secret": "",
     "password": "some obvious but not easy to break password that is really ok to swim in cars"
+  },
+  "facebook": {
+    "id": "",
+    "secret": "",
+    "password": "some obvious but not easy to break password that is really ok to swim in cars"
+  },
+  "google": {
+    "id": "",
+    "secret": "",
+    "password": "some obvious but not easy to break password that is really ok to swim in cars"
   }
 }

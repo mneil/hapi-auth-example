@@ -7,5 +7,15 @@
     "id": "TWITTER_ID",
     "secret": "TWITTER_SECRET",
     "password": "TWITTER_PASSWORD"
+  },
+  "facebook": {
+    "id": "FACEBOOK_ID",
+    "secret": "FACEBOOK_SECRET",
+    "password": "FACEBOOK_PASSWORD"
+  },
+  "google": {
+    "id": "GOOGLE_ID",
+    "secret": "GOOGLE_SECRET",
+    "password": "GOOGLE_PASSWORD"
   }
 }
