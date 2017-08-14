@@ -15,6 +15,12 @@ pipelines:
   branches:
     master:
       - step:
+          script:
+            - apt-get update && apt-get install -y python-dev
+            - curl -O https://bootstrap.pypa.io/get-pip.py
+            - python get-pip.py
+            - pip install awscli
+      - step:
           script: # Modify the commands below to build your repository.
             # Set $DOCKER_HUB_USERNAME and $DOCKER_HUB_PASSWORD as environment variables in repository settings
             - export IMAGE_NAME=346031462502.dkr.ecr.us-east-2.amazonaws.com/abp/api:1.0
