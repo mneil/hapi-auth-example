@@ -32,7 +32,16 @@ but it's bad practice to commit your secrets.
 
  ### Docker
 
- ![](https://cdn-images-1.medium.com/max/1600/1*XyJyNE4XquojVNX0uIHXZA.jpeg "")
+ ![](https://cdn-images-1.medium.com/max/1600/1*XyJyNE4XquojVNX0uIHXZA.jpeg)
+
+ This repo is ready with a dockerfile and supervisord setup to keep your app running no matter what. Check out the dockerfile, the
+ .dockerignore, and supervisord.conf for more info.
+
+ ### Pipeline
+
+ Bitbucket recently did something amazing. They added pipelines which are integrated CI/CD into their cloud service. A pipeline.yml
+ file exists that will build and push your docker image to ECR with every commit. See the heavily commented bitbucket-pipelines.yml
+ file for how to use.
 
  ---
 
